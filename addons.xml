@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="repository.no-sleep" name="[COLOR ghostwhite]No-Sleep IPTV[/COLOR]" version="2.0" provider-name="Walter_White_Media">
+<addon id="repository.no-sleep" name="[COLOR ghostwhite]No-Sleep IPTV[/COLOR]" version="3.0" provider-name="Walter_White_Media">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
   </requires>
@@ -15,8 +15,7 @@
     <disclaimer></disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-<addon id="plugin.video.no-sleep" name="[COLOR ghostwhite]No-Sleep[/COLOR]" version="3.0" provider-name="Walter_White_Media">
+  <addon id="plugin.video.no-sleep" name="[COLOR ghostwhite]No-Sleep[/COLOR]" version="3.0" provider-name="Walter_White_Media">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
@@ -34,7 +33,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.no-sleep" name="[COLORghostwhite][B]No-Sleep Wizard[/B][/COLOR]" version="1.0" provider-name="WalterWhite Media">
+<addon id="plugin.program.no-sleep" name="[COLORghostwhite][B]No-Sleep Wizard[/B][/COLOR]" version="1.0" provider-name="Walter_White_Media">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -48,4 +47,4 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
+</addon>
